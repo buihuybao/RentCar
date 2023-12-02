@@ -30,6 +30,7 @@ namespace RentalCar
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtModelCarSearch = new System.Windows.Forms.TextBox();
@@ -52,6 +53,7 @@ namespace RentalCar
             this.colDelete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrvCategory)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +61,7 @@ namespace RentalCar
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.txtModelCarSearch);
@@ -79,6 +82,22 @@ namespace RentalCar
             this.panel1.Size = new System.Drawing.Size(963, 528);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(626, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(102, 43);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Export Data";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -209,7 +228,7 @@ namespace RentalCar
             this.btnCreateNewCar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnCreateNewCar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnCreateNewCar.ForeColor = System.Drawing.Color.White;
-            this.btnCreateNewCar.Location = new System.Drawing.Point(641, 9);
+            this.btnCreateNewCar.Location = new System.Drawing.Point(734, 3);
             this.btnCreateNewCar.Name = "btnCreateNewCar";
             this.btnCreateNewCar.Size = new System.Drawing.Size(188, 43);
             this.btnCreateNewCar.TabIndex = 5;
@@ -238,6 +257,7 @@ namespace RentalCar
             this.dataGrvCategory.TabIndex = 4;
             this.dataGrvCategory.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrvCategory_CellClick);
             this.dataGrvCategory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGrvCategory.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrvCategory_CellValueChanged);
             // 
             // id
             // 
@@ -317,6 +337,10 @@ namespace RentalCar
             this.label1.Text = "Category Car";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // categoryCar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -361,5 +385,7 @@ namespace RentalCar
         private System.Windows.Forms.Label Name;
         private System.Windows.Forms.TextBox txtNameCarSearch;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button button3;
     }
 }

@@ -10,29 +10,12 @@ namespace RentalCar {
     {
         protected private static string DBName = "RentalCar";
         public static SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ST9DD9Q;Initial Catalog=RentalCar;Integrated Security=True");
+        public static SqlCommand cm = new SqlCommand();
         public static SqlDataAdapter da = new SqlDataAdapter();
         public static SqlDataReader dr = null;
 
         public static int _id = 0;
         public static byte[] _img;
-
-
-
-
-
-
-        ////public static void FillCombo(string TableName, ComboBox ComboName, int FieldNumber)
-        ////{
-        ////    cn.Open();
-        ////    cm = new SqlCommand("select * from " + TableName + "", cn);
-        ////    dr = cm.ExecuteReader();
-        ////    while (dr.Read())
-        ////    {
-        ////        ComboName.Items.Add(dr[FieldNumber]);
-        ////    }
-        ////    cn.Close();
-        ////}
-
 
         public static void ConvertImageToSave(PictureBox PictureBoxName)
         {
@@ -58,11 +41,6 @@ namespace RentalCar {
             MemoryStream ms = new MemoryStream(img);
             PictureBoxName.Image = Image.FromStream(ms);
         }
-
-
-
-
-
     }
 
 

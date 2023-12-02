@@ -181,7 +181,7 @@ namespace RentalCar
 
         private void label6_Click(object sender, EventArgs e)
         {
-            categoryRent f = new categoryRent();
+            categoryRent f = new categoryRent(this);
             f.Show();
         }
     }

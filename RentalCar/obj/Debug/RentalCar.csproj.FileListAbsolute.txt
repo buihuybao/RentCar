@@ -22,3 +22,54 @@ G:\TÍCH HỢP\RentalCar\RentalCar\obj\Debug\RentalCar.categoryRent.resources
 G:\TÍCH HỢP\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarAvailable.resources
 G:\TÍCH HỢP\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarRent.resources
 G:\TÍCH HỢP\RentalCar\RentalCar\obj\Debug\RentalCar.fullinforRent.resources
+G:\TÍCH HỢP\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.ResolveComReference.cache
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\bin\Debug\RentalCar.exe.config
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\bin\Debug\RentalCar.exe
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\bin\Debug\RentalCar.pdb
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.AssemblyReference.cache
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.ResolveComReference.cache
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.addCar.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.categoryCar.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.categoryCustomers.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.categoryRent.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.createCustomer.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.createUser.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.fullinforRent.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarAvailable.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarRent.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.formlogin.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.Main.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.Properties.Resources.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.rentcar.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.startScreen.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.updateCar.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.updateCus.resources
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.GenerateResource.cache
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.CoreCompileInputs.cache
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.exe
+G:\TÍCH HỢP\New folder\RentalCar\RentalCar\obj\Debug\RentalCar.pdb
+C:\Users\DITI\Desktop\RentalCar\RentalCar\bin\Debug\RentalCar.exe.config
+C:\Users\DITI\Desktop\RentalCar\RentalCar\bin\Debug\RentalCar.exe
+C:\Users\DITI\Desktop\RentalCar\RentalCar\bin\Debug\RentalCar.pdb
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.AssemblyReference.cache
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.ResolveComReference.cache
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.addCar.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.categoryCar.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.categoryCustomers.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.categoryRent.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.createCustomer.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.createUser.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.fullinforRent.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarAvailable.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.ListCarRent.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.formlogin.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.Main.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.Properties.Resources.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.rentcar.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.startScreen.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.updateCar.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.updateCus.resources
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.GenerateResource.cache
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.csproj.CoreCompileInputs.cache
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.exe
+C:\Users\DITI\Desktop\RentalCar\RentalCar\obj\Debug\RentalCar.pdb

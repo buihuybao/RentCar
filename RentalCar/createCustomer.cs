@@ -76,7 +76,7 @@ namespace RentalCar
             else
             {
                 checkdr.Close();
-                con.Open();
+                //con.Open();
                 string sql = "insert into Customers(ID, customerName, customerID, customerPhone, customerAddress, customerImg) values (@id, @customername, @customerid, @customerphone, @customerAddress, @customerimg)";
                 SqlCommand cm = new SqlCommand(sql, con);
                 Random ran = new Random();

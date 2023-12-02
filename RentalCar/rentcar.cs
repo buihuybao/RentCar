@@ -30,6 +30,7 @@ namespace RentalCar
             LoadDB();
             main.LoadRent();
             main.LoadAvailable();
+            main.LoadOrder();
         }
         public void FillCombox(String TableName, ComboBox ComboName, int FieldNumber)
         {
@@ -74,12 +75,23 @@ namespace RentalCar
             //MessageBox.Show(comboBox2.Text);
 
             con.Open();
-            cm = new SqlCommand("insert into RentCar(idRent, customerID, customerCar) values(@id, @cusID, @cusCar)", con);
+            cm = new SqlCommand("insert into RentCar(idRent, customerID, customerCar, startRent, endRent, status) values(@id, @cusID, @cusCar, @start, @end, @status)", con);
             Random r = new Random();
             int id = r.Next(100000, 1000000);
+
+            DateTime curentDay = DateTime.Now;
+            int day = curentDay.Day;
+            int month = curentDay.Month;
+            int year = curentDay.Year;
+            string start = day + "/" + month + "/" + year;
+            string end = "";
+
             cm.Parameters.AddWithValue("@id", id);
             cm.Parameters.AddWithValue("@cusID", comboBox1.Text);
             cm.Parameters.AddWithValue("@cusCar", comboBox2.Text);
+            cm.Parameters.AddWithValue("@start", start);
+            cm.Parameters.AddWithValue("@end", end);
+            cm.Parameters.AddWithValue("@status", "0");
             cm.ExecuteNonQuery();
             con.Close();
             main.LoadRent();

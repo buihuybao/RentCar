@@ -30,6 +30,7 @@ namespace RentalCar
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.labeltotal = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -59,6 +60,7 @@ namespace RentalCar
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.labeltotal);
             this.panel1.Controls.Add(this.label6);
@@ -78,6 +80,22 @@ namespace RentalCar
             this.panel1.Size = new System.Drawing.Size(963, 528);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(638, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 43);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Export Data";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -122,7 +140,7 @@ namespace RentalCar
             this.btnCreateNewCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnCreateNewCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnCreateNewCustomer.ForeColor = System.Drawing.Color.White;
-            this.btnCreateNewCustomer.Location = new System.Drawing.Point(667, 9);
+            this.btnCreateNewCustomer.Location = new System.Drawing.Point(734, 4);
             this.btnCreateNewCustomer.Name = "btnCreateNewCustomer";
             this.btnCreateNewCustomer.Size = new System.Drawing.Size(188, 43);
             this.btnCreateNewCustomer.TabIndex = 5;
@@ -136,7 +154,7 @@ namespace RentalCar
             this.txtCusAddSearch.Name = "txtCusAddSearch";
             this.txtCusAddSearch.Size = new System.Drawing.Size(89, 20);
             this.txtCusAddSearch.TabIndex = 23;
-            this.txtCusAddSearch.TextChanged += new System.EventHandler(this.txtModelCarSearch_TextChanged);
+            this.txtCusAddSearch.TextChanged += new System.EventHandler(this.txtAddSearch_TextChanged);
             // 
             // dataGrvCategoryCustomer
             // 
@@ -249,7 +267,7 @@ namespace RentalCar
             this.txtCusPhoneSearch.Name = "txtCusPhoneSearch";
             this.txtCusPhoneSearch.Size = new System.Drawing.Size(89, 20);
             this.txtCusPhoneSearch.TabIndex = 21;
-            this.txtCusPhoneSearch.TextChanged += new System.EventHandler(this.txtColorCarSearch_TextChanged);
+            this.txtCusPhoneSearch.TextChanged += new System.EventHandler(this.txtPhoneSearch_TextChanged);
             // 
             // label1
             // 
@@ -282,7 +300,7 @@ namespace RentalCar
             this.txtCusIDSearch.Name = "txtCusIDSearch";
             this.txtCusIDSearch.Size = new System.Drawing.Size(90, 20);
             this.txtCusIDSearch.TabIndex = 19;
-            this.txtCusIDSearch.TextChanged += new System.EventHandler(this.txtNameCarSearch_TextChanged);
+            this.txtCusIDSearch.TextChanged += new System.EventHandler(this.txtIDSearch_TextChanged);
             // 
             // txtCusNameSearch
             // 
@@ -290,7 +308,7 @@ namespace RentalCar
             this.txtCusNameSearch.Name = "txtCusNameSearch";
             this.txtCusNameSearch.Size = new System.Drawing.Size(89, 20);
             this.txtCusNameSearch.TabIndex = 17;
-            this.txtCusNameSearch.TextChanged += new System.EventHandler(this.txtIDCarSeacrh_TextChanged);
+            this.txtCusNameSearch.TextChanged += new System.EventHandler(this.txtNameSeacrh_TextChanged);
             // 
             // label3
             // 
@@ -313,7 +331,7 @@ namespace RentalCar
             this.ClientSize = new System.Drawing.Size(975, 544);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            ////this.Name = "categoryCustomers";
+            //this.Name = "categoryCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "categoryCustomers";
             this.Load += new System.EventHandler(this.categoryCustomers_Load);
@@ -349,5 +367,6 @@ namespace RentalCar
         private System.Windows.Forms.TextBox txtCusIDSearch;
         private System.Windows.Forms.TextBox txtCusNameSearch;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
     }
 }

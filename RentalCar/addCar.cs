@@ -20,7 +20,6 @@ namespace RentalCar
             InitializeComponent();
             this.f = f;
         }
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-ST9DD9Q;Initial Catalog=RentalCar;Integrated Security=True");
         
         private void label2_Click(object sender, EventArgs e)
         {
@@ -41,9 +40,9 @@ namespace RentalCar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            con.Open();
+            db.con.Open();
             string checksql = "select * from Car where id = @idcheck";
-            SqlCommand checkcmd = new SqlCommand(checksql, con);
+            SqlCommand checkcmd = new SqlCommand(checksql, db.con);
             checkcmd.Parameters.AddWithValue("@idcheck", txtCreateCarID.Text);
             SqlDataReader checkdr = checkcmd.ExecuteReader();
             if (checkdr.Read())
@@ -53,20 +52,19 @@ namespace RentalCar
             {
                 checkdr.Close();
                 string sql = "insert into Car(id, carname, carcolor, carmodel, carimg) values (@id, @carname, @carcolor, @carmodel, @carimg)";
-                SqlCommand cm = new SqlCommand(sql, con);
-                cm.Parameters.AddWithValue("@id", txtCreateCarID.Text);
-                cm.Parameters.AddWithValue("@carname", txtCreateCarName.Text);
-                cm.Parameters.AddWithValue("@carcolor", txtCreateCarColor.Text);
-                cm.Parameters.AddWithValue("@carmodel", txtCreateCarModel.Text);
+                db.cm = new SqlCommand(sql, db.con);
+                db.cm.Parameters.AddWithValue("@id", txtCreateCarID.Text);
+                db.cm.Parameters.AddWithValue("@carname", txtCreateCarName.Text);
+                db.cm.Parameters.AddWithValue("@carcolor", txtCreateCarColor.Text);
+                db.cm.Parameters.AddWithValue("@carmodel", txtCreateCarModel.Text);
                 db.ConvertImageToSave(pic);
-                cm.Parameters.AddWithValue("@carimg", db._img);
-                cm.ExecuteNonQuery();
+                db.cm.Parameters.AddWithValue("@carimg", db._img);
+                db.cm.ExecuteNonQuery();
                 MessageBox.Show("Add successfully");
-                f.LoadCars();
-            }    
-
-
-            con.Close();
+ 
+            }
+            db.con.Close();
+            f.LoadCars();
             txtCreateCarID.Clear();
             txtCreateCarName.Clear();
             txtCreateCarColor.Clear();
