@@ -48,11 +48,11 @@ namespace RentalCar
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(19, 19);
+            this.label1.Location = new System.Drawing.Point(44, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(279, 46);
+            this.label1.Size = new System.Drawing.Size(230, 46);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Rental System";
+            this.label1.Text = "Quản Lý Xe";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // notifyIcon1
@@ -76,7 +76,7 @@ namespace RentalCar
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(46, 331);
+            this.progressBar1.Location = new System.Drawing.Point(57, 331);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(210, 14);
             this.progressBar1.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace RentalCar
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(55, 140);
+            this.pictureBox1.Location = new System.Drawing.Point(65, 140);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(195, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -98,7 +98,7 @@ namespace RentalCar
             this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.Control;
             this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.SystemColors.Control;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(20, 369);
+            this.dateTimePicker1.Location = new System.Drawing.Point(29, 369);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(267, 23);
             this.dateTimePicker1.TabIndex = 1;

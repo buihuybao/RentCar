@@ -125,7 +125,7 @@ namespace RentalCar
             this.btnRentCar.Name = "btnRentCar";
             this.btnRentCar.Size = new System.Drawing.Size(190, 58);
             this.btnRentCar.TabIndex = 4;
-            this.btnRentCar.Text = "Rent Car";
+            this.btnRentCar.Text = "Thuê Xe";
             this.btnRentCar.UseVisualStyleBackColor = false;
             this.btnRentCar.Click += new System.EventHandler(this.btnRentCar_Click);
             // 
@@ -138,7 +138,7 @@ namespace RentalCar
             this.btnNewCus.Name = "btnNewCus";
             this.btnNewCus.Size = new System.Drawing.Size(190, 58);
             this.btnNewCus.TabIndex = 3;
-            this.btnNewCus.Text = "New Customer";
+            this.btnNewCus.Text = "Thêm Khách Hàng Mới";
             this.btnNewCus.UseVisualStyleBackColor = false;
             this.btnNewCus.Click += new System.EventHandler(this.btnNewCus_Click);
             // 
@@ -151,7 +151,7 @@ namespace RentalCar
             this.btnNewCar.Name = "btnNewCar";
             this.btnNewCar.Size = new System.Drawing.Size(190, 58);
             this.btnNewCar.TabIndex = 2;
-            this.btnNewCar.Text = "New Car";
+            this.btnNewCar.Text = "Thêm Xe Mới";
             this.btnNewCar.UseVisualStyleBackColor = false;
             this.btnNewCar.Click += new System.EventHandler(this.btnNewCar_Click);
             // 
@@ -163,9 +163,9 @@ namespace RentalCar
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 39);
+            this.label1.Size = new System.Drawing.Size(179, 39);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Rental System Car";
+            this.label1.Text = "Quản lý xe";
             // 
             // panel2
             // 
@@ -243,9 +243,10 @@ namespace RentalCar
             this.LabelOrder.ForeColor = System.Drawing.Color.White;
             this.LabelOrder.Location = new System.Drawing.Point(553, 217);
             this.LabelOrder.Name = "LabelOrder";
-            this.LabelOrder.Size = new System.Drawing.Size(59, 24);
+            this.LabelOrder.Size = new System.Drawing.Size(187, 24);
             this.LabelOrder.TabIndex = 11;
-            this.LabelOrder.Text = "Order";
+            this.LabelOrder.Text = "Danh sách đơn hàng";
+            this.LabelOrder.Click += new System.EventHandler(this.LabelOrder_Click);
             // 
             // grvOrder
             // 
@@ -270,13 +271,13 @@ namespace RentalCar
             // customer
             // 
             this.customer.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customer.HeaderText = "Customer ID";
+            this.customer.HeaderText = "ID khách hàng";
             this.customer.Name = "customer";
             // 
             // customerCar
             // 
             this.customerCar.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customerCar.HeaderText = "Car ID";
+            this.customerCar.HeaderText = "ID Xe";
             this.customerCar.Name = "customerCar";
             // 
             // LableCustomers
@@ -286,9 +287,9 @@ namespace RentalCar
             this.LableCustomers.ForeColor = System.Drawing.Color.White;
             this.LableCustomers.Location = new System.Drawing.Point(7, 219);
             this.LableCustomers.Name = "LableCustomers";
-            this.LableCustomers.Size = new System.Drawing.Size(100, 24);
+            this.LableCustomers.Size = new System.Drawing.Size(204, 24);
             this.LableCustomers.TabIndex = 9;
-            this.LableCustomers.Text = "Customers";
+            this.LableCustomers.Text = "Danh sách khách hàng";
             // 
             // LableCarsRent
             // 
@@ -297,9 +298,9 @@ namespace RentalCar
             this.LableCarsRent.ForeColor = System.Drawing.Color.White;
             this.LableCarsRent.Location = new System.Drawing.Point(553, 7);
             this.LableCarsRent.Name = "LableCarsRent";
-            this.LableCarsRent.Size = new System.Drawing.Size(92, 24);
+            this.LableCarsRent.Size = new System.Drawing.Size(244, 24);
             this.LableCarsRent.TabIndex = 8;
-            this.LableCarsRent.Text = "Cars Rent";
+            this.LableCarsRent.Text = "Danh sách xe đã được thuê";
             // 
             // LableCarsAvailable
             // 
@@ -308,9 +309,9 @@ namespace RentalCar
             this.LableCarsAvailable.ForeColor = System.Drawing.Color.White;
             this.LableCarsAvailable.Location = new System.Drawing.Point(7, 9);
             this.LableCarsAvailable.Name = "LableCarsAvailable";
-            this.LableCarsAvailable.Size = new System.Drawing.Size(129, 24);
+            this.LableCarsAvailable.Size = new System.Drawing.Size(126, 24);
             this.LableCarsAvailable.TabIndex = 6;
-            this.LableCarsAvailable.Text = "Cars Available";
+            this.LableCarsAvailable.Text = "Danh sách xe";
             // 
             // grvRent
             // 
@@ -334,31 +335,31 @@ namespace RentalCar
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn2.HeaderText = "ID Car";
+            this.dataGridViewTextBoxColumn2.HeaderText = "ID";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn3.HeaderText = "Name Car";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Tên xe";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn4.HeaderText = "Color Car";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Màu xe";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dataGridViewTextBoxColumn5.HeaderText = "Model Car";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Loại xe";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 80;
+            this.dataGridViewTextBoxColumn5.Width = 66;
             // 
             // dataGridViewTextBoxColumn6
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Image";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Hình ảnh";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewTextBoxColumn6.Visible = false;
@@ -385,31 +386,31 @@ namespace RentalCar
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID Car";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // carname
             // 
             this.carname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.carname.HeaderText = "Name Car";
+            this.carname.HeaderText = "Tên xe";
             this.carname.Name = "carname";
             // 
             // carcolor
             // 
             this.carcolor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.carcolor.HeaderText = "Color Car";
+            this.carcolor.HeaderText = "Màu xe";
             this.carcolor.Name = "carcolor";
             // 
             // carmodel
             // 
             this.carmodel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.carmodel.HeaderText = "Model Car";
+            this.carmodel.HeaderText = "Loại xe";
             this.carmodel.Name = "carmodel";
-            this.carmodel.Width = 80;
+            this.carmodel.Width = 66;
             // 
             // carimg
             // 
-            this.carimg.HeaderText = "Image";
+            this.carimg.HeaderText = "Hình ảnh";
             this.carimg.Name = "carimg";
             this.carimg.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.carimg.Visible = false;
@@ -443,30 +444,30 @@ namespace RentalCar
             // customerName
             // 
             this.customerName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customerName.HeaderText = "Customer Name";
+            this.customerName.HeaderText = "Họ tên";
             this.customerName.Name = "customerName";
             // 
             // customerID
             // 
             this.customerID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customerID.HeaderText = "Customer ID";
+            this.customerID.HeaderText = "ID khách hàng";
             this.customerID.Name = "customerID";
             // 
             // customerPhone
             // 
             this.customerPhone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customerPhone.HeaderText = "Customer Phone";
+            this.customerPhone.HeaderText = "Số điện thoại";
             this.customerPhone.Name = "customerPhone";
             // 
             // customerAddress
             // 
             this.customerAddress.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.customerAddress.HeaderText = "Customer Address";
+            this.customerAddress.HeaderText = "Địa chỉ";
             this.customerAddress.Name = "customerAddress";
             // 
             // customerImg
             // 
-            this.customerImg.HeaderText = "Customer Image";
+            this.customerImg.HeaderText = "Hình ảnh";
             this.customerImg.Name = "customerImg";
             this.customerImg.Visible = false;
             // 
@@ -511,6 +512,16 @@ namespace RentalCar
         private System.Windows.Forms.Label LableCustomers;
         private System.Windows.Forms.Label LableCarsRent;
         private System.Windows.Forms.Label LableCarsAvailable;
+        private System.Windows.Forms.Label LabelOrder;
+        private System.Windows.Forms.DataGridView grvOrder;
+        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idRent;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customerCar;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
@@ -527,15 +538,5 @@ namespace RentalCar
         private System.Windows.Forms.DataGridViewTextBoxColumn customerPhone;
         private System.Windows.Forms.DataGridViewTextBoxColumn customerAddress;
         private System.Windows.Forms.DataGridViewTextBoxColumn customerImg;
-        private System.Windows.Forms.Label LabelOrder;
-        private System.Windows.Forms.DataGridView grvOrder;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idRent;
-        private System.Windows.Forms.DataGridViewTextBoxColumn customer;
-        private System.Windows.Forms.DataGridViewTextBoxColumn customerCar;
-        private System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Label label3;
-        public System.Windows.Forms.Label label6;
-        public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.Label label4;
     }
 }

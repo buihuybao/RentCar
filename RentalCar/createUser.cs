@@ -49,7 +49,6 @@ namespace RentalCar
                 Random random = new Random();
                 int rd = random.Next(100000, 1000000);
 
-
                 con.Open();
                 string checksql = "select * from Users where username = @idcheck";
                 SqlCommand checkcmd = new SqlCommand(checksql, con);
@@ -62,7 +61,7 @@ namespace RentalCar
                 else
                 {
                     checkdr.Close();
-                    con.Open();
+                    //con.Open();
                     string sql = "insert into Users(id, username, password) values(@id, @UserName, @Password)";
                     SqlCommand cm = new SqlCommand(sql, con);
                     cm.Parameters.AddWithValue("@UserName", txtCreateUser.Text);
@@ -78,11 +77,7 @@ namespace RentalCar
                     this.Dispose();
                     this.Hide();
                 }
-
-
                 con.Close();
-
-
             }
             catch (Exception ex)
             {

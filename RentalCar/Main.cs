@@ -184,5 +184,10 @@ namespace RentalCar
             categoryRent f = new categoryRent(this);
             f.Show();
         }
+
+        private void LabelOrder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

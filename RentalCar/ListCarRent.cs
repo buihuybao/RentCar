@@ -98,5 +98,15 @@ namespace RentalCar
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtModelCarSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

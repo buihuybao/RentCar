@@ -95,7 +95,7 @@ namespace RentalCar
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 43);
             this.button3.TabIndex = 18;
-            this.button3.Text = "Export Data";
+            this.button3.Text = "Xuất DS";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -107,7 +107,7 @@ namespace RentalCar
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 23);
             this.button2.TabIndex = 16;
-            this.button2.Text = "Search";
+            this.button2.Text = "Tìm";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -119,9 +119,9 @@ namespace RentalCar
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(493, 76);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 16);
+            this.label6.Size = new System.Drawing.Size(34, 16);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Model";
+            this.label6.Text = "Loại";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtModelCarSearch
@@ -140,9 +140,9 @@ namespace RentalCar
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(328, 76);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 16);
+            this.label5.Size = new System.Drawing.Size(34, 16);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Color";
+            this.label5.Text = "Màu";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtColorCarSearch
@@ -161,9 +161,9 @@ namespace RentalCar
             this.Name.ForeColor = System.Drawing.Color.White;
             this.Name.Location = new System.Drawing.Point(159, 75);
             this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(45, 16);
+            this.Name.Size = new System.Drawing.Size(32, 16);
             this.Name.TabIndex = 11;
-            this.Name.Text = "Name";
+            this.Name.Text = "Tên";
             this.Name.Click += new System.EventHandler(this.Name_Click);
             // 
             // txtNameCarSearch
@@ -180,16 +180,16 @@ namespace RentalCar
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(10, 75);
+            this.label3.Location = new System.Drawing.Point(15, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 16);
+            this.label3.Size = new System.Drawing.Size(21, 16);
             this.label3.TabIndex = 9;
-            this.label3.Text = "ID Car";
+            this.label3.Text = "ID";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtIDCarSeacrh
             // 
-            this.txtIDCarSeacrh.Location = new System.Drawing.Point(54, 75);
+            this.txtIDCarSeacrh.Location = new System.Drawing.Point(45, 74);
             this.txtIDCarSeacrh.Name = "txtIDCarSeacrh";
             this.txtIDCarSeacrh.Size = new System.Drawing.Size(89, 20);
             this.txtIDCarSeacrh.TabIndex = 8;
@@ -203,9 +203,9 @@ namespace RentalCar
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(9, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 20);
+            this.label2.Size = new System.Drawing.Size(35, 20);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Filter";
+            this.label2.Text = "Lọc";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // labelCount
@@ -232,7 +232,7 @@ namespace RentalCar
             this.btnCreateNewCar.Name = "btnCreateNewCar";
             this.btnCreateNewCar.Size = new System.Drawing.Size(188, 43);
             this.btnCreateNewCar.TabIndex = 5;
-            this.btnCreateNewCar.Text = "Create New Car";
+            this.btnCreateNewCar.Text = "Thêm Xe Mới";
             this.btnCreateNewCar.UseVisualStyleBackColor = false;
             this.btnCreateNewCar.Click += new System.EventHandler(this.btnCreateNewCar_Click);
             // 
@@ -262,31 +262,31 @@ namespace RentalCar
             // id
             // 
             this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.id.HeaderText = "ID Car";
+            this.id.HeaderText = "ID ";
             this.id.Name = "id";
             // 
             // carname
             // 
             this.carname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.carname.HeaderText = "Name Car";
+            this.carname.HeaderText = "Tên Xe";
             this.carname.Name = "carname";
             // 
             // carcolor
             // 
             this.carcolor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.carcolor.HeaderText = "Color Car";
+            this.carcolor.HeaderText = "Màu Xe";
             this.carcolor.Name = "carcolor";
             // 
             // carmodel
             // 
             this.carmodel.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.carmodel.HeaderText = "Model Car";
+            this.carmodel.HeaderText = "Loại Xe";
             this.carmodel.Name = "carmodel";
-            this.carmodel.Width = 80;
+            this.carmodel.Width = 68;
             // 
             // carimg
             // 
-            this.carimg.HeaderText = "Image";
+            this.carimg.HeaderText = "Hình Ảnh";
             this.carimg.Name = "carimg";
             this.carimg.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.carimg.Visible = false;
@@ -294,20 +294,20 @@ namespace RentalCar
             // colEdit
             // 
             this.colEdit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colEdit.HeaderText = "Edit";
+            this.colEdit.HeaderText = "Chỉnh Sửa";
             this.colEdit.Name = "colEdit";
             this.colEdit.Text = "Edit";
             this.colEdit.UseColumnTextForButtonValue = true;
-            this.colEdit.Width = 31;
+            this.colEdit.Width = 62;
             // 
             // colDelete
             // 
             this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colDelete.HeaderText = "Delete";
+            this.colDelete.HeaderText = "Xóa";
             this.colDelete.Name = "colDelete";
             this.colDelete.Text = "Delete";
             this.colDelete.UseColumnTextForButtonValue = true;
-            this.colDelete.Width = 44;
+            this.colDelete.Width = 32;
             // 
             // button1
             // 
@@ -332,9 +332,9 @@ namespace RentalCar
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 39);
+            this.label1.Size = new System.Drawing.Size(225, 39);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Category Car";
+            this.label1.Text = "Danh sách xe";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // openFileDialog1
@@ -367,13 +367,6 @@ namespace RentalCar
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCreateNewCar;
         private System.Windows.Forms.DataGridView dataGrvCategory;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carcolor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carmodel;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carimg;
-        private System.Windows.Forms.DataGridViewButtonColumn colEdit;
-        private System.Windows.Forms.DataGridViewButtonColumn colDelete;
         private System.Windows.Forms.Label labelCount;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtIDCarSeacrh;
@@ -387,5 +380,12 @@ namespace RentalCar
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carcolor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carmodel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carimg;
+        private System.Windows.Forms.DataGridViewButtonColumn colEdit;
+        private System.Windows.Forms.DataGridViewButtonColumn colDelete;
     }
 }

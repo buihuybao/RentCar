@@ -47,9 +47,9 @@ namespace RentalCar
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 31);
+            this.label1.Size = new System.Drawing.Size(208, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Category Rent Car";
+            this.label1.Text = "Tạo đơn thuê xe";
             // 
             // panel1
             // 
@@ -87,9 +87,9 @@ namespace RentalCar
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(8, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 20);
+            this.label2.Size = new System.Drawing.Size(113, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Customer ID";
+            this.label2.Text = "ID khách hàng";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -98,9 +98,9 @@ namespace RentalCar
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(8, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 20);
+            this.label3.Size = new System.Drawing.Size(46, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Car ID";
+            this.label3.Text = "ID xe";
             // 
             // comboBox2
             // 
@@ -119,7 +119,7 @@ namespace RentalCar
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(437, 55);
             this.button1.TabIndex = 5;
-            this.button1.Text = "New Rent";
+            this.button1.Text = "Tạo";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

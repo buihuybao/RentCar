@@ -88,9 +88,9 @@ namespace RentalCar
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(170, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 31);
+            this.label1.Size = new System.Drawing.Size(123, 31);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Create Car";
+            this.label1.Text = "Thêm Xe";
             // 
             // panel2
             // 
@@ -115,9 +115,9 @@ namespace RentalCar
             // 
             // txtCreateCarModel
             // 
-            this.txtCreateCarModel.Location = new System.Drawing.Point(26, 207);
+            this.txtCreateCarModel.Location = new System.Drawing.Point(105, 151);
             this.txtCreateCarModel.Name = "txtCreateCarModel";
-            this.txtCreateCarModel.Size = new System.Drawing.Size(262, 23);
+            this.txtCreateCarModel.Size = new System.Drawing.Size(183, 23);
             this.txtCreateCarModel.TabIndex = 12;
             this.txtCreateCarModel.TextChanged += new System.EventHandler(this.txtCreateCarModel_TextChanged);
             // 
@@ -126,11 +126,11 @@ namespace RentalCar
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(23, 182);
+            this.label6.Location = new System.Drawing.Point(23, 150);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 22);
+            this.label6.Size = new System.Drawing.Size(71, 22);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Car Model";
+            this.label6.Text = "Loại Xe";
             // 
             // button3
             // 
@@ -138,11 +138,11 @@ namespace RentalCar
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(323, 169);
+            this.button3.Location = new System.Drawing.Point(323, 160);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 35);
             this.button3.TabIndex = 10;
-            this.button3.Text = "Upload Image";
+            this.button3.Text = "Tải ảnh lên";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -165,33 +165,33 @@ namespace RentalCar
             this.label5.Location = new System.Drawing.Point(319, 3);
             this.label5.Name = "label5";
             this.label5.Padding = new System.Windows.Forms.Padding(5);
-            this.label5.Size = new System.Drawing.Size(102, 32);
+            this.label5.Size = new System.Drawing.Size(94, 32);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Car Image";
+            this.label5.Text = "Hình Ảnh";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(21, 125);
+            this.label4.Location = new System.Drawing.Point(21, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 22);
+            this.label4.Size = new System.Drawing.Size(71, 22);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Car Color";
+            this.label4.Text = "Màu Xe";
             // 
             // txtCreateCarColor
             // 
-            this.txtCreateCarColor.Location = new System.Drawing.Point(25, 150);
+            this.txtCreateCarColor.Location = new System.Drawing.Point(105, 104);
             this.txtCreateCarColor.Name = "txtCreateCarColor";
-            this.txtCreateCarColor.Size = new System.Drawing.Size(263, 23);
+            this.txtCreateCarColor.Size = new System.Drawing.Size(183, 23);
             this.txtCreateCarColor.TabIndex = 4;
             // 
             // txtCreateCarName
             // 
-            this.txtCreateCarName.Location = new System.Drawing.Point(25, 92);
+            this.txtCreateCarName.Location = new System.Drawing.Point(105, 58);
             this.txtCreateCarName.Name = "txtCreateCarName";
-            this.txtCreateCarName.Size = new System.Drawing.Size(263, 23);
+            this.txtCreateCarName.Size = new System.Drawing.Size(183, 23);
             this.txtCreateCarName.TabIndex = 3;
             // 
             // label3
@@ -199,29 +199,29 @@ namespace RentalCar
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(22, 67);
+            this.label3.Location = new System.Drawing.Point(21, 58);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 22);
+            this.label3.Size = new System.Drawing.Size(69, 22);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Car Name";
+            this.label3.Text = "Tên Xe";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(22, 8);
+            this.label2.Location = new System.Drawing.Point(22, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 22);
+            this.label2.Size = new System.Drawing.Size(32, 22);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Car ID";
+            this.label2.Text = "ID ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtCreateCarID
             // 
-            this.txtCreateCarID.Location = new System.Drawing.Point(25, 29);
+            this.txtCreateCarID.Location = new System.Drawing.Point(105, 12);
             this.txtCreateCarID.Name = "txtCreateCarID";
-            this.txtCreateCarID.Size = new System.Drawing.Size(263, 23);
+            this.txtCreateCarID.Size = new System.Drawing.Size(183, 23);
             this.txtCreateCarID.TabIndex = 0;
             // 
             // button1
@@ -234,7 +234,7 @@ namespace RentalCar
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(186, 37);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Create New Car";
+            this.button1.Text = "Thêm Xe Mới";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -248,7 +248,7 @@ namespace RentalCar
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(186, 37);
             this.button4.TabIndex = 13;
-            this.button4.Text = "Cancel";
+            this.button4.Text = "Hủy Bỏ";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

@@ -48,6 +48,7 @@ namespace RentalCar
             this.grvCategoryRent = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.idRent = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.customerid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CarID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +64,7 @@ namespace RentalCar
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.statusSearch);
             this.panel1.Controls.Add(this.label2);
@@ -93,17 +95,17 @@ namespace RentalCar
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(683, 73);
+            this.label4.Location = new System.Drawing.Point(754, 73);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 16);
+            this.label4.Size = new System.Drawing.Size(68, 16);
             this.label4.TabIndex = 40;
-            this.label4.Text = "Status";
+            this.label4.Text = "Trạng thái";
             // 
             // statusSearch
             // 
-            this.statusSearch.Location = new System.Drawing.Point(734, 71);
+            this.statusSearch.Location = new System.Drawing.Point(826, 71);
             this.statusSearch.Name = "statusSearch";
-            this.statusSearch.Size = new System.Drawing.Size(89, 20);
+            this.statusSearch.Size = new System.Drawing.Size(64, 20);
             this.statusSearch.TabIndex = 39;
             this.statusSearch.TextChanged += new System.EventHandler(this.statusSearch_TextChanged);
             // 
@@ -113,28 +115,28 @@ namespace RentalCar
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(472, 72);
+            this.label2.Location = new System.Drawing.Point(414, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 16);
+            this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 38;
-            this.label2.Text = "Start";
+            this.label2.Text = "Ngày thuê";
             // 
             // startSearch
             // 
-            this.startSearch.Location = new System.Drawing.Point(507, 70);
+            this.startSearch.Location = new System.Drawing.Point(484, 69);
             this.startSearch.Name = "startSearch";
-            this.startSearch.Size = new System.Drawing.Size(48, 20);
+            this.startSearch.Size = new System.Drawing.Size(69, 20);
             this.startSearch.TabIndex = 37;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(861, 70);
+            this.button2.Location = new System.Drawing.Point(896, 70);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 23);
+            this.button2.Size = new System.Drawing.Size(49, 23);
             this.button2.TabIndex = 36;
-            this.button2.Text = "Search";
+            this.button2.Text = "Tìm";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -144,17 +146,17 @@ namespace RentalCar
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(585, 72);
+            this.label6.Location = new System.Drawing.Point(581, 72);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 16);
+            this.label6.Size = new System.Drawing.Size(89, 16);
             this.label6.TabIndex = 35;
-            this.label6.Text = "End";
+            this.label6.Text = "Ngày kết thúc";
             // 
             // endSearch
             // 
-            this.endSearch.Location = new System.Drawing.Point(617, 70);
+            this.endSearch.Location = new System.Drawing.Point(674, 70);
             this.endSearch.Name = "endSearch";
-            this.endSearch.Size = new System.Drawing.Size(48, 20);
+            this.endSearch.Size = new System.Drawing.Size(65, 20);
             this.endSearch.TabIndex = 34;
             // 
             // label5
@@ -163,17 +165,17 @@ namespace RentalCar
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(320, 72);
+            this.label5.Location = new System.Drawing.Point(289, 72);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 16);
+            this.label5.Size = new System.Drawing.Size(38, 16);
             this.label5.TabIndex = 33;
-            this.label5.Text = "Car ID";
+            this.label5.Text = "ID xe";
             // 
             // txtCarIDSearch
             // 
-            this.txtCarIDSearch.Location = new System.Drawing.Point(366, 70);
+            this.txtCarIDSearch.Location = new System.Drawing.Point(328, 70);
             this.txtCarIDSearch.Name = "txtCarIDSearch";
-            this.txtCarIDSearch.Size = new System.Drawing.Size(89, 20);
+            this.txtCarIDSearch.Size = new System.Drawing.Size(63, 20);
             this.txtCarIDSearch.TabIndex = 32;
             this.txtCarIDSearch.TextChanged += new System.EventHandler(this.txtCarIDSearch_TextChanged);
             // 
@@ -183,25 +185,25 @@ namespace RentalCar
             this.Name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name.ForeColor = System.Drawing.Color.White;
-            this.Name.Location = new System.Drawing.Point(132, 73);
+            this.Name.Location = new System.Drawing.Point(104, 73);
             this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(81, 16);
+            this.Name.Size = new System.Drawing.Size(93, 16);
             this.Name.TabIndex = 31;
-            this.Name.Text = "Customer ID";
+            this.Name.Text = "ID khách hàng";
             // 
             // txtIDCusSearch
             // 
-            this.txtIDCusSearch.Location = new System.Drawing.Point(213, 70);
+            this.txtIDCusSearch.Location = new System.Drawing.Point(196, 70);
             this.txtIDCusSearch.Name = "txtIDCusSearch";
-            this.txtIDCusSearch.Size = new System.Drawing.Size(90, 20);
+            this.txtIDCusSearch.Size = new System.Drawing.Size(60, 20);
             this.txtIDCusSearch.TabIndex = 30;
             this.txtIDCusSearch.TextChanged += new System.EventHandler(this.txtIDCusSearch_TextChanged);
             // 
             // txtIDRentSearch
             // 
-            this.txtIDRentSearch.Location = new System.Drawing.Point(63, 71);
+            this.txtIDRentSearch.Location = new System.Drawing.Point(30, 71);
             this.txtIDRentSearch.Name = "txtIDRentSearch";
-            this.txtIDRentSearch.Size = new System.Drawing.Size(63, 20);
+            this.txtIDRentSearch.Size = new System.Drawing.Size(52, 20);
             this.txtIDRentSearch.TabIndex = 28;
             this.txtIDRentSearch.TextChanged += new System.EventHandler(this.txtIDRentSearch_TextChanged);
             // 
@@ -213,9 +215,9 @@ namespace RentalCar
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(11, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 16);
+            this.label3.Size = new System.Drawing.Size(21, 16);
             this.label3.TabIndex = 29;
-            this.label3.Text = "ID Rent";
+            this.label3.Text = "ID";
             // 
             // button3
             // 
@@ -229,7 +231,7 @@ namespace RentalCar
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 43);
             this.button3.TabIndex = 27;
-            this.button3.Text = "Export Data";
+            this.button3.Text = "Xuất DL";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -290,9 +292,21 @@ namespace RentalCar
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 39);
+            this.label1.Size = new System.Drawing.Size(310, 39);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Rent Car";
+            this.label1.Text = "Thông tin đơn hàng";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(11, 43);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(30, 16);
+            this.label7.TabIndex = 41;
+            this.label7.Text = "Lọc";
             // 
             // idRent
             // 
@@ -301,48 +315,48 @@ namespace RentalCar
             // 
             // customerid
             // 
-            this.customerid.HeaderText = "Customer ID";
+            this.customerid.HeaderText = "ID khách hàng";
             this.customerid.Name = "customerid";
             // 
             // CarID
             // 
-            this.CarID.HeaderText = "Car ID";
+            this.CarID.HeaderText = "ID xe";
             this.CarID.Name = "CarID";
             // 
             // startRent
             // 
-            this.startRent.HeaderText = "Start Day";
+            this.startRent.HeaderText = "Ngày thuê";
             this.startRent.Name = "startRent";
             // 
             // endRent
             // 
-            this.endRent.HeaderText = "End Day";
+            this.endRent.HeaderText = "Ngày kết thúc";
             this.endRent.Name = "endRent";
             // 
             // status
             // 
-            this.status.HeaderText = "Status";
+            this.status.HeaderText = "Trạng thái";
             this.status.Name = "status";
             // 
             // colinformation
             // 
             this.colinformation.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colinformation.HeaderText = "Information";
+            this.colinformation.HeaderText = "Thông tin";
             this.colinformation.Name = "colinformation";
             this.colinformation.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.colinformation.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.colinformation.Text = "Information";
             this.colinformation.UseColumnTextForButtonValue = true;
-            this.colinformation.Width = 84;
+            this.colinformation.Width = 77;
             // 
             // colDelete
             // 
             this.colDelete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colDelete.HeaderText = "End";
+            this.colDelete.HeaderText = "Kết thúc";
             this.colDelete.Name = "colDelete";
             this.colDelete.Text = "End";
             this.colDelete.UseColumnTextForButtonValue = true;
-            this.colDelete.Width = 32;
+            this.colDelete.Width = 53;
             // 
             // categoryRent
             // 
@@ -384,6 +398,7 @@ namespace RentalCar
         private System.Windows.Forms.TextBox txtIDCusSearch;
         private System.Windows.Forms.TextBox txtIDRentSearch;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridViewTextBoxColumn idRent;
         private System.Windows.Forms.DataGridViewTextBoxColumn customerid;
         private System.Windows.Forms.DataGridViewTextBoxColumn CarID;

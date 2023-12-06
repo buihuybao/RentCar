@@ -75,7 +75,7 @@ namespace RentalCar
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(355, 35);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Exit";
+            this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -89,7 +89,7 @@ namespace RentalCar
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(144, 47);
             this.btnCreate.TabIndex = 8;
-            this.btnCreate.Text = "Create";
+            this.btnCreate.Text = "Đăng Kí";
             this.btnCreate.UseVisualStyleBackColor = false;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
@@ -103,7 +103,7 @@ namespace RentalCar
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(144, 47);
             this.btnLogin.TabIndex = 7;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -115,9 +115,9 @@ namespace RentalCar
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(72, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(77, 20);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Password";
+            this.label2.Text = "Mật Khẩu";
             // 
             // label3
             // 
@@ -127,9 +127,9 @@ namespace RentalCar
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(72, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 20);
+            this.label3.Size = new System.Drawing.Size(80, 20);
             this.label3.TabIndex = 5;
-            this.label3.Text = "User Name";
+            this.label3.Text = "Tài Khoản";
             // 
             // txtPasswordLogin
             // 
@@ -164,11 +164,11 @@ namespace RentalCar
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(29, 10);
+            this.label1.Location = new System.Drawing.Point(153, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(453, 39);
+            this.label1.Size = new System.Drawing.Size(221, 39);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Login System Rental System";
+            this.label1.Text = "ĐĂNG NHẬP";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // notifyIcon1
