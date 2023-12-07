@@ -220,9 +220,9 @@ namespace RentalCar
             // 
             // txtUpdateNameCus
             // 
-            this.txtUpdateNameCus.Location = new System.Drawing.Point(21, 34);
+            this.txtUpdateNameCus.Location = new System.Drawing.Point(22, 34);
             this.txtUpdateNameCus.Name = "txtUpdateNameCus";
-            this.txtUpdateNameCus.Size = new System.Drawing.Size(215, 23);
+            this.txtUpdateNameCus.Size = new System.Drawing.Size(214, 23);
             this.txtUpdateNameCus.TabIndex = 0;
             this.txtUpdateNameCus.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
